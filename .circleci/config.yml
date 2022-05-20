@@ -15,7 +15,7 @@ jobs:
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
-      - flutter/install_sdk_and_pub:
+      - flutter/install_sdk:
           flutter_version: 2.10.5
       - run:
           name: "Create project"
